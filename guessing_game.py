@@ -2,11 +2,11 @@ import random
 import time
 import sys
 
-
 def roll_out():
     time.sleep(.55)
     print("-----------------------------------------")
     time.sleep(.55)
+    
     
 def start_game():
     correct_guess = random.randint(1, 21)

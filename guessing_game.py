@@ -25,7 +25,6 @@ def roll_out():
 
 def start_game():
     correct_guess = random.randint(1, 21)
-    number_range = list(range(1, 21))
     number_of_tries = 0
     high_score = 0
 
@@ -62,7 +61,7 @@ def start_game():
                     number_of_tries = 0
                     clear_screen()
                     break
-                elif replay.upper() == 'N',:
+                elif replay.upper() == 'N':
                     roll_out()
                     print("\t\tGAME OVER!!\n\t    Thanks for playing!")
                     roll_out()

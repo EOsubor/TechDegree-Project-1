@@ -39,7 +39,7 @@ def start_game():
             player_guess = int(input("\nPick a number between 1 and 20:\n"))
         except ValueError:
             print("\nOh no, Invalid input. Please try again")
-            print("Number must be between 1 and 20")
+            print("The number you entered was out of bounds, please try again.")
             continue
         if player_guess > correct_guess:
             number_of_tries +=1
